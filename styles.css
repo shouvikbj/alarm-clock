@@ -1,0 +1,65 @@
+/* This is the custom CSS file for styling the Alarm Clock web application */
+
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  transition: background-color 0.5s;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+.clock {
+  text-align: center;
+}
+
+#setAlarm {
+  margin-top: 20px;
+}
+
+#alarmList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#alarmList li {
+  margin-bottom: 10px;
+}
+
+.clock-container {
+  background-color: #2196f3;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.clock-time {
+  font-size: 3rem;
+}
+
+.set-alarm {
+  background-color: #fff; /* Light mode background color */
+  border-radius: 10px;
+  padding: 80px;
+  margin-top: 20px;
+  transition: background-color 0.5s; /* Transition for background color change */
+}
+
+.dark-theme .set-alarm {
+  background-color: #555; /* Dark mode background color */
+}
+
+.light-theme .set-alarm {
+  background-color: #beeeef; /* Light mode background color */
+}
+
+button {
+  float: right;
+}
